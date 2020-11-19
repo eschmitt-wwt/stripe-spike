@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ephraim-stripe-spike": {
+      "hosting": {
+        "stripe-spike": [
+          "ephraim-stripe-spike"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ephraim-stripe-spike"
+  }
+}

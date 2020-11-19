@@ -123,9 +123,16 @@
               "devServerTarget": "stripe-spike:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "stripe-spike"
+  "defaultProject": "stripe-spike",
+  "cli": {
+    "analytics": "00e61a69-cb3b-42f4-a9c4-660f44e1df26"
+  }
 }
